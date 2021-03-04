@@ -4,9 +4,9 @@
 
 /* resetear estilos css por defecto */
 * {
-  margin: 0px;
-  padding: 0px;
-} 
+    margin: 0px;
+    padding: 0px;
+}
 
 /*selector: etiqueta, cuerpo de la pagina */
 body {
@@ -23,13 +23,13 @@ body {
 
 /*selector: etiqueta, cabecera de la pagina */
 header {
-  background: red;
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  line-height: 100px;
-  color: white;
-  border-bottom: 2px dashed black;
+    background: red;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 2px dashed black;
 }
 
 /*selector: etiqueta, selecciona todas las etiqueta que esta dentro de nav ul(las etiqueta li)*/
@@ -54,11 +54,11 @@ nav {
 
 /*selector: clase(class), le da estilos al contenido*/
 .content {
-    float:left;
+    float: left;
     width: calc(80% - 80px);
     min-height: 500px;
     background: green;
-    padding: 40px;    
+    padding: 40px;
 }
 
 /*selector: clase(class), le da estilos al articulo*/
@@ -72,8 +72,8 @@ nav {
 
 /*selector: clase(class), le da estilos al primer objeto dentro de la clase (content)*/
 .article:first-child {
-   border-top: 1px solid #eee;
-   padding-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
 }
 
 /*selector: clase(class), afecta a todas las etiquetas h2 dentro de la clase .article*/
