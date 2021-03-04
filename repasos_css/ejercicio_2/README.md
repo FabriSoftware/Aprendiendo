@@ -2,4 +2,4 @@
 
 captura de la pagina web
 
-![alt text](https://i.imgur.com/h6D6fIC.png)
+![alt text](https://i.imgur.com/r4zQRb4.png)
