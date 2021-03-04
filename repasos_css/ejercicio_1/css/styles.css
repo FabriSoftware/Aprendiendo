@@ -1,0 +1,101 @@
+/* imports google fonst */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* resetear estilos css por defecto */
+* {
+  margin: 0px;
+  padding: 0px;
+} 
+
+/*selector: etiqueta, cuerpo de la pagina */
+body {
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* selector: clase(class), contenido de la pagina*/
+.container {
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+/*selector: etiqueta, cabecera de la pagina */
+header {
+  background: red;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  border-bottom: 2px dashed black;
+}
+
+/*selector: etiqueta, selecciona todas las etiqueta que esta dentro de nav ul(las etiqueta li)*/
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+/*selector: etiqueta, cambia el estilo de la barra de navegacion */
+nav {
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+/*selector: clase(class), solucionar el error que mueve el .content hacia la navegacion */
+.clearfix {
+    clear: both;
+}
+
+/*selector: clase(class), le da estilos al contenido*/
+.content {
+    float:left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;    
+}
+
+/*selector: clase(class), le da estilos al articulo*/
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/*selector: clase(class), le da estilos al primer objeto dentro de la clase (content)*/
+.article:first-child {
+   border-top: 1px solid #eee;
+   padding-top: 10px;
+}
+
+/*selector: clase(class), afecta a todas las etiquetas h2 dentro de la clase .article*/
+.article h2 {
+    font-size: 25px;
+}
+
+/*selector: etiqueta, le da estilos a la barra lateral*/
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*selector: etiqueta, le da estilos al pie de pagina*/
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 50px;
+}
